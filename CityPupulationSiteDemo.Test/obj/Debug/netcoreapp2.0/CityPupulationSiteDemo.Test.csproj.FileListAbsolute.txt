@@ -1,0 +1,17 @@
+C:\Users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPupulationSiteDemo.Test\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPupulationSiteDemo.Test\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPupulationSiteDemo.Test\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPupulationSiteDemo.Test\bin\Debug\netcoreapp2.0\CityPupulationSiteDemo.Test.deps.json
+C:\Users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPupulationSiteDemo.Test\bin\Debug\netcoreapp2.0\CityPupulationSiteDemo.Test.runtimeconfig.json
+C:\Users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPupulationSiteDemo.Test\bin\Debug\netcoreapp2.0\CityPupulationSiteDemo.Test.runtimeconfig.dev.json
+C:\Users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPupulationSiteDemo.Test\bin\Debug\netcoreapp2.0\CityPupulationSiteDemo.Test.dll
+C:\Users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPupulationSiteDemo.Test\bin\Debug\netcoreapp2.0\CityPupulationSiteDemo.Test.pdb
+C:\Users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPupulationSiteDemo.Test\bin\Debug\netcoreapp2.0\CityPopulationSite.Demo.dll
+C:\Users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPupulationSiteDemo.Test\bin\Debug\netcoreapp2.0\CityPopulationSite.Demo.pdb
+C:\Users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPupulationSiteDemo.Test\obj\Debug\netcoreapp2.0\CityPupulationSiteDemo.Test.csprojResolveAssemblyReference.cache
+C:\Users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPupulationSiteDemo.Test\obj\Debug\netcoreapp2.0\CityPupulationSiteDemo.Test.csproj.CoreCompileInputs.cache
+C:\Users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPupulationSiteDemo.Test\obj\Debug\netcoreapp2.0\CityPupulationSiteDemo.Test.AssemblyInfoInputs.cache
+C:\Users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPupulationSiteDemo.Test\obj\Debug\netcoreapp2.0\CityPupulationSiteDemo.Test.AssemblyInfo.cs
+C:\Users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPupulationSiteDemo.Test\obj\Debug\netcoreapp2.0\CityPupulationSiteDemo.Test.csproj.CopyComplete
+C:\Users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPupulationSiteDemo.Test\obj\Debug\netcoreapp2.0\CityPupulationSiteDemo.Test.dll
+C:\Users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPupulationSiteDemo.Test\obj\Debug\netcoreapp2.0\CityPupulationSiteDemo.Test.pdb

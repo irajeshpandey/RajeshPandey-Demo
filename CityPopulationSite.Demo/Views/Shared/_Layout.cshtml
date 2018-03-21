@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title</title>
+    <meta name="description" content="@ViewBag.MetaDescription">
+    <meta name="keywords" content="@ViewBag.MetaKeywords">
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css?id=1" />
+        <link rel="stylesheet" href="~/css/site.css" />
+        <link href="~/css/assetsite.css" rel="stylesheet" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+</head>
+<body>  
+    <div id="wrapper" class="container-fluid" style="padding-left:10px;padding-right:10px">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="header-logo">
+                    <a href="~/">
+                        <span class="brand"></span>
+                        <span>US City Population</span>
+                        <small>For code test</small>
+                    </a>
+                </div>
+            </div>  
+            <div class="header-nav navbar-right" style="margin-right:0!important">@*//todoInline style due to lack of time*@
+                <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
+                    <ul class="nav navbar-top-links navbar-right">
+                        <li><a href="~/">Home</a></li>
+                        <li><a href="#">About</a></li>                       
+                        <li class="dropdown dropdown-hover">
+                            <a href="#" data-hover="dropdown">
+                                Demo menu<i class="fa fa-angle-down"></i>
+                                <span class="arrow top"></span>
+                            </a>
+                            <!-- BEGIN dropdown-menu -->
+                            <div class="dropdown-menu p-0">
+                                <!-- BEGIN dropdown-menu-container -->
+                                <div class="dropdown-menu-container" style="min-width:100px !important">
+                                    <!-- BEGIN dropdown-menu-sidebar -->
+                                    <div class="dropdown-menu-sidebar">
+                                        <ul class="dropdown-menu-list">
+                                            <li><a href="#">Tool-1<i class="fa fa-angle-right pull-right"></i></a></li>
+                                            <li><a href="#">Tool-2<i class="fa fa-angle-right pull-right"></i></a></li>
+                                            <li><a href="#">Tool-3<i class="fa fa-angle-right pull-right"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- END dropdown-menu-container -->
+                            </div>
+                            <!-- END dropdown-menu -->
+                        </li>
+                        <li>
+                            <a href="~/Login/">
+                                <span class="hidden-md hidden-sm hidden-xs">Login / Register</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+   
+
+        @RenderBody()
+    </div>
+    @*<footer class="footer-distributed">
+        <div class="footer-left">
+            <h4><span style="color:#8f9296;">Footer demo: This site is for demo only</span></h4>
+            <p class="footer-links">
+                <ul class="footer-links hidden-xs">
+                    <li><a href="#"> Home </a></li>
+                    <li><a href="#" ">Our Services</a></li>
+                    <li><a href="#"> Pricing </a></li>
+                    <li>@Html.ActionLink("Sign Up", "signup", "buy") </li>
+                    <li>@Html.ActionLink("Login", "Login", "SignUp")</li>
+                    <li>@Html.ActionLink("Contact Us", "Contact", "Home") </li>
+                    <li><a href="#">Blog</a></li>
+
+                </ul>
+            </p>
+
+            <p style="color:#8f9296; font-size:12px; font-weight:normal;">
+                <a href="#" target="_blank" style="color:#8f9296; font-size:12px; font-weight:normal;">Service - 1</a>
+                | <a href="#" target="_blank" style="color:#8f9296; font-size:12px; font-weight:normal;">Service - 2</a>
+                | <a href="#" target="_blank" style="color:#8f9296; font-size:12px; font-weight:normal;">Service - 3</a>
+                | <a href="#" target="_blank" style="color:#8f9296; font-size:12px; font-weight:normal;">Service - 4</a>
+                | <a href="#" target="_blank" style="color:#8f9296; font-size:12px; font-weight:normal;">Service - 5</a>
+            </p>
+
+            <p class="footer-company-name"> ©Copyright @DateTime.Now.Year Schwab| All Rights Reserved.</p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <h4><div style="color:#8f9296;"> Contact Us</div></h4>
+            <div class="modal-body">
+                <form name='zsWebToCase_169507000000107001' id='zsWebToCase_169507000000107001' action='~/support/WebToCase' method='POST' onSubmit='return zsValidateMandatoryFields()' enctype='multipart/form-data'>
+                    <input type='hidden' name='xnQsjsdp' value='BJN7J-7VOtvbsy-V*kINXg$$' />  <input type='hidden' name='xmIwtLD' value='1E3cS1tXmGMctc6p47Zc7m-*B6-MHnNR' />  <input type='hidden' name='actionType' value='Q2FzZXM=' />  <input type='hidden' name='returnURL' value='~/thankyou' />
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="Subject" value="Message" />
+                    <input type="text" name="Email" placeholder="Email" />
+                    <textarea name="Description" placeholder="Message"></textarea>
+                    <button>Send</button>
+                </form>
+            </div>
+        </div>
+    </footer>*@
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js?id=1"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+
+
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,95 @@
+﻿@model PaginatedList<CityPopulationSite.Demo.Models.CityDataModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="row">
+    <div class="col-md-10 center-block">
+        <h1>US City Population Data</h1>
+        <div id="Message"></div>
+        <form asp-action="Index" method="get">
+            <div class="form-actions no-color">
+                <p>
+                    Search by City/State/Zip: <input type="text" name="SearchString" value="@ViewData["currentFilter"]" />
+                    <input type="submit" value="Search" class="btn btn-default" />
+                    <a asp-action="Index" class="btn btn-primary">Back to Full List</a>
+                </p>
+            </div>
+        </form>
+        <table class="table table-striped">
+
+            <thead>
+                <tr class="table table-bordered ">
+                    <th class="table table-bordered" style="width:150px;">
+                        <a asp-action="Index" asp-route-sortOrder="@ViewData["CitySortParm"]">City</a>
+                    </th>
+                    <th class="table table-bordered" style="width:150px;">
+                        <a asp-action="Index" asp-route-sortOrder="@ViewData["StateSortParm"]">State</a>
+                    </th>
+                    <th class="table table-bordered" style="width:75px;">Zip</th>
+                    <th class="table table-bordered" style="width:100px;">Population</th>
+                    <th class="table table-bordered" style="width:30px;"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model == null)
+                {
+                    <tr>
+                        <td>
+                            No records to show
+                        </td>
+                    </tr>
+                }
+                else
+                {
+                    foreach (var item in Model.ToList())
+                    {
+                        <tr class="table table-bordered">
+                            @*<td>
+                                    @item.Id
+                                </td>*@
+                            <td class="table table-bordered" style="width:150px;">
+                                @item.City
+                            </td>
+                            <td class="table table-bordered" style="width:150px;">
+                                @item.State
+                            </td>
+                            <td class="table table-bordered" style="width:75px;">
+                                @item.Id
+                            </td>
+                            <td class="table table-bordered" style="width:100px;">
+                                @item.Pop
+                            </td>
+                            <td class="table table-bordered" style="width:30px;">
+                                <a asp-action="Detail" asp-route-id="@item.Id">Detail/Edit</a>
+
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+        @{
+            var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+            var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+        }
+
+        <a asp-action="Index"
+           asp-route-sortOrder="@ViewData["CurrentSort"]"
+           asp-route-page="@(Model.PageIndex - 1)"
+           asp-route-currentFilter="@ViewData["CurrentFilter"]"
+           class="btn btn-default @prevDisabled">
+            Previous
+        </a>
+        <a asp-action="Index"
+           asp-route-sortOrder="@ViewData["CurrentSort"]"
+           asp-route-page="@(Model.PageIndex + 1)"
+           asp-route-currentFilter="@ViewData["CurrentFilter"]"
+           class="btn btn-default @nextDisabled">
+            Next
+        </a>
+    </div>
+
+
+</div>

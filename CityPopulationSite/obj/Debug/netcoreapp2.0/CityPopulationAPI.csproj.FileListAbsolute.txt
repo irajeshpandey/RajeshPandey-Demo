@@ -1,0 +1,11 @@
+c:\users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPopulationSite\bin\Debug\netcoreapp2.0\CityPopulationAPI.deps.json
+c:\users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPopulationSite\bin\Debug\netcoreapp2.0\CityPopulationAPI.runtimeconfig.json
+c:\users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPopulationSite\bin\Debug\netcoreapp2.0\CityPopulationAPI.runtimeconfig.dev.json
+c:\users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPopulationSite\bin\Debug\netcoreapp2.0\CityPopulationAPI.dll
+c:\users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPopulationSite\bin\Debug\netcoreapp2.0\CityPopulationAPI.pdb
+c:\users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPopulationSite\obj\Debug\netcoreapp2.0\CityPopulationAPI.csprojResolveAssemblyReference.cache
+c:\users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPopulationSite\obj\Debug\netcoreapp2.0\CityPopulationAPI.csproj.CoreCompileInputs.cache
+c:\users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPopulationSite\obj\Debug\netcoreapp2.0\CityPopulationAPI.AssemblyInfoInputs.cache
+c:\users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPopulationSite\obj\Debug\netcoreapp2.0\CityPopulationAPI.AssemblyInfo.cs
+c:\users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPopulationSite\obj\Debug\netcoreapp2.0\CityPopulationAPI.dll
+c:\users\jai maa lakshmi\source\repos\CityPopulationSite.Demo\CityPopulationSite\obj\Debug\netcoreapp2.0\CityPopulationAPI.pdb
